@@ -1,69 +1,84 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Claire Namagala-Contact</title>
-    <style>
+  <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Claire Namagala-Contact</title>
+  <style>
     body {
-    font-family: Arial, sans-serif;
-    margin: 1opx;
-    padding: 30px;
-    background-color: plum
-    
-}
-h1{
-  color: black; text-align: center;
-}
-    </style>
+      font-family: Arial, sans-serif;
+      margin: 1opx;
+      padding: 30px;
+      background-color: plum
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+    }
+  </style>
+<link rel="stylesheet" href="navbar.css">
 </head>
+
 <body>
-  <a href="home.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="blog.html">Blog</a>
-  <a href="contact.html">Contact</a>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">NCI</label>
+    <ul>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
 </nav>
   <br>
   <br>
   <h1>Get in touch with me</p>
     <div class="container">
-        <form>
-      <p>
+      <form>
+        <p>
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-      <br>
-      <br>
+          <br>
+          <br>
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-      <br>
-      <br>
+          <br>
+          <br>
           <label for="country">Country</label>
           <select id="country" name="country">
             <option value="uganda">Uganda</option>
             <option value="kenya">Kenya</option>
             <option value="tanzania">Tanzania</option>
           </select>
-      <br>
-      <br>
-      <label for="fname">Email</label>
-      <input type="email" id="fname" name="Email" placeholder="Your email..">
-      <br>
-      <br>
+          <br>
+          <br>
+          <label for="fname">Email</label>
+          <input type="email" id="fname" name="Email" placeholder="Your email..">
+          <br>
+          <br>
           <label for="subject"></label>
           <textarea id="" name="" placeholder="Write something.." style="height:200px"></textarea>
           <br>
           <br>
-      
-          <input style="color: blue;" type="submit" value="Submit">
-          <div class="call-me">
 
-          </div>
-      
-        </form>
-      </div>
-      
-      
-    
+          <input style="color: blue;" type="submit" value="Submit">
+        <div class="call-me">
+
+        </div>
+
+      </form>
+    </div>
+
+
+
 </body>
+
 </html>
